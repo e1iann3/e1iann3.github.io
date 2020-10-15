@@ -279,15 +279,29 @@ img{
     background-image:url("../Images/worldpressB.png") ;
     mix-blend-mode: difference;
   }
+  .column4 {
+    float: left;
+    width: 10%;
+    padding: 15px;
+    background-image:url("../Images/gitN.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .column4:hover {
+
+    background-image:url("../Images/gitB.jpg") ;
+    mix-blend-mode: difference;
+  }
   .space{
     float: left;
     padding: 5px;
-    width: 4%;
+    width: 2%;
   }
   .row{
     position: center;
 
-    margin-left: 35%;
+    margin-left: 30%;
     padding-top: 32%;
     text-align: center;
 
